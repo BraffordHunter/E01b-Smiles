@@ -18,13 +18,13 @@ arcade.draw_circle_filled(400,300,100, open_color.yellow_3)
 arcade.draw_circle_outline(400,300,100, open_color.black,4)
 
 #(x,y,width,height,color)
-arcade.draw_ellipse_filled(400,300,100,30 open_color.black)
-arcade.draw_ellipse_filled(5,5,15,25,open_color.black)
-arcade.draw_circle_filled(10,20,10,open_color.gray_2)
-arcade.draw_circle_filled(15,10,25,open_color.gray_2)
+arcade.draw_ellipse_filled(400,300,15,25,open_color.black)
+arcade.draw_ellipse_filled(400,300,15,25,open_color.black)
+arcade.draw_circle_filled(400,300,15,25,open_color.gray_2)
+arcade.draw_circle_filled(400,300,15,25,open_color.gray_2)
 
 #(x,y,width,height,color,start_degrees,end_degrees,border_thickness)
-arcade.draw_arc_outline(0,0,60,50,open_color.black,190,350,4)
+arcade.draw_arc_outline(400,300,15,25,open_color.black,180,360,4)
 
 
 
